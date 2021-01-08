@@ -1,0 +1,25 @@
+{
+  "name": "@mundus-tech/mundus-pwa-bluetooth",
+  "version": "1.0.0",
+  "description": "Mundus PWA Bluetooth package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mundus-tech/mundus-pwa-bluetooth.git"
+  },
+  "keywords": [
+    "mundus",
+    "bluetooth",
+    "pwa",
+    "javascript"
+  ],
+  "author": "Luka Dumančić <luka.dumancic49@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mundus-tech/mundus-pwa-bluetooth/issues"
+  },
+  "homepage": "https://github.com/Mundus-tech/mundus-pwa-bluetooth#readme"
+}
