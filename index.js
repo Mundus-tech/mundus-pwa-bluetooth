@@ -1,4 +1,4 @@
-async function connect() {
+export async function connect() {
     const device = await navigator.bluetooth.requestDevice({
       filters: [
         {
@@ -15,7 +15,7 @@ async function connect() {
     return device;
 }
 
-function registerListeners(device) {
+export async function registerListeners(device) {
     device.addEventListener("gattserverdisconnected", onDisconnected);
     const server = await device.gatt.connect();
     const boardService = await server.getPrimaryService(
@@ -49,7 +49,7 @@ function registerListeners(device) {
     });
 }
 
-function onDisconnected(event) {
+export function onDisconnected(event) {
   const device = event.target;
   console.log(`Device ${device.name} is disconnected.`);
 }
