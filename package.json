@@ -1,6 +1,6 @@
 {
   "name": "@mundus-tech/mundus-pwa-bluetooth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mundus PWA Bluetooth package",
   "main": "index.js",
   "scripts": {
