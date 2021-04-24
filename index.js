@@ -1,5 +1,5 @@
-import AnimationService from "./AnimationService";
-import config from "./config";
+import AnimationService from "./AnimationService.js";
+import config from "./config.js";
 
 export default class MundusBluetoothService {
   constructor() {
